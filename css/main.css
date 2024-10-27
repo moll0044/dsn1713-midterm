@@ -51,6 +51,10 @@ section:not(#hero):not(#cta){
   section:not(#hero):not(#cta){
     padding: 100px 0;
   }
+  
+  #infolist {
+    text-align: center;
+  }
 }
 
 
@@ -88,4 +92,18 @@ figure > img {
 
 #footercta {
   background-color: darkslategrey;
+}
+
+@media (max-width: 768px) {
+  .mealprep {
+      text-align: center;
+  }
+
+  .mealprep {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .item1 { order: 2; }
+  .item2 { order: 1; }
 }
