@@ -10,14 +10,14 @@
   </head>
   <body>
 
-    <header>
+    <header class="sticky-top bg-primary">
       <nav class="navbar navbar-expand-lg">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src="images/daily-dish-logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
             Daily Dish
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -26,16 +26,16 @@
                 <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#">Menu Plans</a>
+                <a class="nav-link text-light text-opacity-50" href="#">Menu Plans</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#">How It Works</a>
+                <a class="nav-link text-light text-opacity-50" href="#">How It Works</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#">Our Recipes</a>
+                <a class="nav-link text-light text-opacity-50" href="#">Our Recipes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#">Contact Us</a>
+                <a class="nav-link text-light text-opacity-50" href="#">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -100,13 +100,15 @@
             </div>
             <div class="col-sm-12 col-md-6 align-content-center item2">
               <ul class="list-unstyled mealprep">
-                <li>
+                <li class="pb-4">
                   <h3>Save Time & Stress</h3>
                   <p>Skip the grocery store and meal prep. Everything you need is delivered—so you can focus on living, not planning.</p>
+                  <hr class="m-0 p-0">
                 </li>
-                <li>
+                <li class="pb-4">
                   <h3>Balanced & Nutritious</h3>
                   <p>Each recipe is carefully crafted by nutrition experts and chefs to provide well-balanced, nourishing meals.</p>
+                  <hr class="m-0 p-0">
                 </li>
                 <li>
                   <h3>Customize Your Box</h3>
@@ -122,23 +124,23 @@
       <section id="customers" class="bg-primary class text-light">
         <div class="container">
           <div class="text-center">
-            <h2>What Our Customers Are Saying</h2>
+            <h2 class="mb-5">What Our Customers Are Saying</h2>
 
             <div class="row">
               <div class="col-sm-12 col-md-4">
                 <figure>
-                  <img class="pb-2" src="images/sarah.jpg" alt="Profile picture of Sarah" width="100" height="100">
-                  <blockquote>
-                    <p>"Daily Dish has completely changed how I eat during the week. The meals are so easy, and the flavors are incredible!"</p>
+                  <img class="mb-2 mt-4 rounded-circle" src="images/sarah.jpg" alt="Profile picture of Sarah" width="100" height="100">
+                  <blockquote class="m-0">
+                    <p class="m-0">"Daily Dish has completely changed how I eat during the week. The meals are so easy, and the flavors are incredible!"</p>
                   </blockquote>
-                  <figcaption>
+                  <figcaption class="p-0">
                     <small>- Sarah, Busy Professional</small>
                   </figcaption>
                 </figure>
               </div>
               <div class="col-sm-12 col-md-4">
                 <figure>
-                  <img class="pb-2" src="images/tom.jpg" alt="Profile picture of Tom" width="100" height="100">
+                  <img class="mb-2 mt-4 rounded-circle" src="images/tom.jpg" alt="Profile picture of Tom" width="100" height="100">
                   <blockquote>
                     <p>"I love that I can adjust the menu to fit my family’s preferences. Daily Dish makes healthy eating simple for all of us."</p>
                   </blockquote>
@@ -149,7 +151,7 @@
               </div>
               <div class="col-sm-12 col-md-4">
                 <figure>
-                  <img class="pb-2" src="images/julia.jpg" alt="Profile picture of Julia" width="100" height="100">
+                  <img class="mb-2 mt-4 rounded-circle" src="images/julia.jpg" alt="Profile picture of Julia" width="100" height="100">
                   <blockquote>
                     <p>"As someone who’s new to cooking, I was nervous at first but Daily Dish makes it so easy."</p>
                   </blockquote>
@@ -216,7 +218,7 @@
         <div class="container">
           <div class="col-12">
             <h2 class="pb-4">Join Thousands of Time-Savers – Start Eating Better Today!</h2>
-            <button id="footercta" class="text-white p-2">Sign Up and Get 30% Off Your First Week</button>
+            <button id="footercta" class="text-white p-2 bg-primary">Sign Up and Get 30% Off Your First Week</button>
           </div>
         </div>
       </section>
@@ -234,7 +236,7 @@
           </div>
       
           <ul class="list-unstyled nav col-md-4 justify-content-end align-items-center d-flex">
-            <li><a href="#"><img src="images/instagram.svg" alt="Instagram logo" width="35" height="auto"></a></li>
+            <li class="me-2"><a href="#"><img src="images/instagram.svg" alt="Instagram logo" width="35" height="auto"></a></li>
             <li><a href="#"><img src="images/facebook.svg" alt="Facebook logo" width="35" height="auto"></a></li>
           </ul>
         </div>    

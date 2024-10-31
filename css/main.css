@@ -27,6 +27,17 @@ h1, h2, h3 {
   background-size: cover;
 }
 
+.navbar-toggle {
+  background: transparent;
+  border: solid 1px rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  outline: none;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
 #hero .d-flex {
   height: 800px;
 }
@@ -55,44 +66,45 @@ section:not(#hero):not(#cta){
   #infolist {
     text-align: center;
   }
+
+  .navbar-toggle {
+    display: none;
+  }
 }
 
 
 
 
 
-.navbar {
-  background-color: darkslategrey;
-}
 
 #hero {
   padding-top: 8rem;
 }
 
 #button {
-  background-color: darkslategrey;
+  background-color: #2e483a;
 }
 
 .beige accordion {
   background-color: rgb(255, 249, 242);
 }
 
-figure > img {
+/* figure > img {
   border-radius: 50%;
   margin-top: 1em;
-}
+} */
 
 :root {
-  --bs-primary: darkslategrey;
+  --primary: #2e483a;
+  --light: #F6F3ED;
+
+  --bs-primary: #2e483a;
+  --bs-primary-rgb: 46, 72, 58;
+
+  --bs-primary-light: #F6F3ED;
+  --bs-primary-light-rgb: 246, 243, 237;
 }
 
-#customers {
-  background-color: var(--bs-primary);
-}
-
-#footercta {
-  background-color: darkslategrey;
-}
 
 @media (max-width: 768px) {
   .mealprep {
